@@ -137,7 +137,7 @@ The following query will allow you to find files by name (case insensitive)
 
 ```cypher
 MATCH p=(h:NetworkShareHost)-[:HasNetworkShare]->(s:NetworkShareSMB)-[:Contains*0..]->(f:File)
-WHERE toLower(f.name) ENDS WITH ".bat"
+WHERE toLower(f.extension) = toLower(".bat")
 RETURN p
 ```
 
