@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # PYTHON_ARGCOMPLETE_OK
-# File name          : SharesHound.py
+# File name          : ShareHound.py
 # Author             : Remi Gascou (@podalirius_)
 # Date created       : 12 Aug 2025
 
